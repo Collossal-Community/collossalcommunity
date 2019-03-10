@@ -29,4 +29,10 @@ bot.on('message', message => {
         console.log("Commande cépic faîtes avec succès !")
         message.delete();
     }
+
+    if (message.content === prefix + "créateur"){
+        message.channel.send("**__Mon créateur est EscobarFamilyTV#7967__**");
+        console.log("Commande ccréateur faîtes avec succès !")
+        message.delete();
+    }
 });
