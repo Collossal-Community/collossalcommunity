@@ -35,4 +35,10 @@ bot.on('message', message => {
         console.log("Commande ccréateur faîtes avec succès !")
         message.delete();
     }
+
+    if (message.content === prefix + "création"){
+        message.channel.send("**__J'ai été crée le 10/03/19 à 15H30__**");
+        console.log("Commande ccréation faîtes avec succès !")
+        message.delete();
+    }
 });
