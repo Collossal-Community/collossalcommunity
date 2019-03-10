@@ -25,7 +25,7 @@ bot.on('message', message => {
     }
 
     if (message.content === prefix + "épic"){
-        message.channel.send("**__Liste des épic : \nCollossal : \nCollossal-Wolfs, Dark-Escobar, 7DM Kanəki, Collossal ManManFort, Al_bahtar \n------------------------------------------------------------------------------------------------ \nLight : blackyYTB, lucas.alligier, zerod_782");
+        message.channel.send("**__Liste des épic : \n\nCollossal : \nCollossal-Wolfs, Dark-Escobar, 7DM Kanəki, Collossal ManManFort, Al_bahtar \n------------------------------------------------------------------------------------------------ \nLight : \nblackyYTB, lucas.alligier, zerod_782__**");
         console.log("Commande cépic faîtes avec succès !")
         message.delete();
     }
