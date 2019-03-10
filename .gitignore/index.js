@@ -8,7 +8,7 @@ bot.on('ready', function() {
     console.log("Collossal Community est connecté au Discord");
 });
 
-bot.login('NTUyOTEzMzg4ODMzODY1Nzc5.D2bCgg.IlO89z2S7mgUelMZ8V0PLE42Rf0');
+bot.login(process.env.TOKEN);
 
 
 bot.on('message', message => {
